@@ -6,16 +6,21 @@
 
 ## What is this?
 
-My Obsidian vault contains years of personal research, notes, and documents. Instead of manually searching through hundreds of files, this project uses Claude Code to query the vault conversationally. I ask a questio and in turn get a structured answer pulled from my notes!
+My Obsidian vault contains years of personal research & notes. As of Apr 2026, it contains 1300+ markdown files!
 
-Useful answers get logged into a Notion database to build a searchable record over time.
+Instead of manually searching through that volume of information this project uses Claude Code to query the vault conversationally. I ask a question and in turn get a structured answer pulled from my notes.
+To build on that even further, I challenged myself to then use Claude to log answers into a Notion database to build a searchable record over time.
+
 
 ---
 
 ## Why I built this
 
 I've been wanting to explore how I can go beyond my current uses for AI and challenged myself to build a project that would allow me to learn relevant skills.
-AI-first companies are growing in rapidly in numbers and so I want to explore how I can build repeatable workflows in order to position myself well for future job opportunities.
+
+A recent job application was actually the driving factor behind this push. AI-first companies are growing in rapidly in numbers and so I want to explore how I can build repeatable workflows in order to position myself well for future job opportunities.
+
+This project felt like it was the most logical evolution of my current knowledge management system. Obsidian allows for easy connections to be made between nodes of information due to its functionality, but as the volume of information in my  vault grew, I felt that I was missing out on getting some really great insights and connnections that I couldn't traditionally find in Obsidian.
 
 This is my first Claude Code project and part of a broader effort to learn by building.
 
