@@ -63,7 +63,7 @@ def add_row(question: str, answer: str = "", source_notes: str = "", entry_date:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Add a row to the Bible Study Notion database.")
+    parser = argparse.ArgumentParser(description="Add a row to the Notion database.")
     parser.add_argument("--question", required=True, help="The question (required)")
     parser.add_argument("--answer", default="", help="The answer")
     parser.add_argument("--source", default="", help="Source notes (e.g. 'Hebrews 11:1')")
