@@ -58,24 +58,22 @@ In PowerShell type:
 ```
 I want to connect to a Notion database. My notion API token is XXXXXXX .
 Help me wrtie a script that takes a question and answer as input and creates a new row in this notion database. 
-The database is now shared with the integration. The database ID is
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX and the column names are: Question (title),
-Answer (text), Source Notes (text), Date (date), Tags (multi-select)
----
+The database is now shared with the integration. The database ID is XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX and the column
+names are: Question (title), Answer (text), Source Notes (text), Date (date), Tags (multi-select)
+
 ```
-Claude Code will update and finalise the script for your exact schema.
+Claude Code will update and finalise the script for the exact schema.
 
 ---
 
-### Step 8: Test it
+### Step 7: Test it
 Run this command in PowerShell to confirm everything is connected:
 
 ```
-python add_to_notion.py --question "What does grace mean?"
---answer "Unmerited favour from God, freely given."
---source "Ephesians 2:8-9"
---tags "Grace,Ephesians"
-
+python add_to_notion.py --question "What is a common theme in the most recent 10 files?"
+--answer "The most common themes are xxxxx"
+--source "23Feb26, 09Jan26, xxxxxx"
+--tags "Journal, Notes"
 
 ```
 
