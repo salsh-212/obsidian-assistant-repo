@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-ask.py — Ask a question, search the Bible study vault, and log to Notion.
-Runs entirely within Claude Code — no separate API key needed.
+ask.py — Ask a question, search the Obsidian vault, and log to Notion. In this example the vault is of theological
+files and the entire Bible. Runs entirely within Claude Code no separate API key needed.
 
 Usage:
-    python ask.py "What does Hebrews say about the priesthood of Jesus?"
+    python ask.py "Insert your question here?"
 """
 
 import sys
