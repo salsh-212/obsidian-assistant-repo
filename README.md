@@ -31,7 +31,7 @@ This is my first Claude Code project and part of a broader effort to learn by bu
 1. **Claude Code** is pointed at the local Obsidian vault folder
 2. A **question is asked** in natural language
 3. Claude **reads through** relevant markdown files in the vault
-4. A **structured answer** is returned and logged into Notion
+4. A **structured answer** is returned and logged into Notion Database along with other metadata
 
 ---
 
